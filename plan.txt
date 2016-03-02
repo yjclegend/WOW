@@ -1,0 +1,7 @@
+wow1:
+	draenor flying
+	pets
+	heirloom(dock)
+	Dread Pirate Ring
+wow2:
+	valentine pets and honor and equips

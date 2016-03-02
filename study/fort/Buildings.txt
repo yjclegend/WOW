@@ -1,0 +1,38 @@
+main:
+	shipdock:
+		pets:shark(buy it anyway)
+		heirloom*3
+
+basic:
+	mining:
+		苦工的矿镐
+		pet
+	herbs
+		夜影幼苗
+		疯狂的萝卜
+	pets
+	fishing:
+		follwer
+		pet
+
+small:
+	inscription
+
+
+medium:
+	伐木场:
+		follower*2
+	hotel:
+		pet*2
+	stack:
+		pet 1+1
+	畜棚:
+		cow
+		
+
+
+
+
+large:
+	兵营
+	矮人地堡
