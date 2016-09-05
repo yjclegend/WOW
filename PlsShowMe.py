@@ -10,7 +10,7 @@ class AucFun:
 	def __init__(self):
 		self.Cookie = r"wow.auction.priceType=perItem; wow.auction.lastBrowse=?itemId=21877&sort=unitBid&reverse=false; slideViewed=13118918; slideViewed=13118918%2C13133948%2C13118917; JSESSIONID=5BFFE53337EAB8EAB85BBDD35C153827.blade18_04_bnet-wow; xtoken=e2dfef37-0e97-4423-858d-1347fa5a01fd; serviceBar.html5Warning=1; serviceBar.browserWarning=0; web.id=CN-377ae279-7760-4982-a83e-acd65d87a5ad; _ga=GA1.3.1924452016.1406540014; loc=zh; __utma=124133273.1924452016.1406540014.1406808272.1406824571.26; __utmz=124133273.1406684125.9.2.utmcsr=baidu|utmccn=(organic)|utmcmd=organic|utmctr=%E9%AD%94%E5%85%BD%20%E5%AE%A0%E7%89%A9%E7%AC%BC; xstoken=8d6d406a-56e0-4935-b9b2-8716f14c58e8; BA-tassadar-login.key=5f3842e68af7f1969aa06574fee34c7e; login.key=5f3842e68af7f1969aa06574fee34c7e; opt=1"
 		self.user_agent = r'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 SE 2.X MetaSr 1.0' 
-		self.baseURL = r"https://www.battlenet.com.cn/wow/zh/vault/character/auction/horde/browse?itemId="
+		self.baseURL = "https://www.battlenet.com.cn/wow/zh/vault/character/auction/browse?reverse=false&sort=unitBuyout&itemId="
 		self.copperPat = re.compile('icon-copper">(.*?)<')
 		self.silverPat = re.compile('icon-silver">(.*?)<')
 		self.goldPat = re.compile('icon-gold">(.*?)<')

@@ -1,0 +1,5 @@
+## Interface: 50400
+## Title: [TEST]Have We Met111?
+## SavedVariables: AucScanData
+## SavedVariablesPerCharacter: AucChance
+AddOnTest.lua
