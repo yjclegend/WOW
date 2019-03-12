@@ -1,4 +1,4 @@
-## Interface: 50400
+## Interface: 80000
 ## Title: [TEST]Have We Met111?
 ## SavedVariables: AucScanData
 ## SavedVariablesPerCharacter: AucChance

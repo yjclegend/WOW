@@ -1,34 +1,8 @@
-SLASH_HELLOWORLD1, SLASH_HELLOWORLD2 = '/hiw', '/hellow'; -- 3.
-function SlashCmdList.HELLOWORLD(msg, editbox) -- 4.
-	print("Hello, World!");
-end
-SLASH_BLAH1 = "/blah"
-SlashCmdList["BLAH"] = function(msg, editBox)
-    -- change the text on the editBox.
-    editBox:Show()
-    editBox:SetText("Blah blah blah!")
-end	
-
-function MyAddon_Mimic(who, send)
-	local posX, posY = GetPlayerMapPosition(who);
-	if send==1 then
-		DEFAULT_CHAT_FRAME:AddMessage(who .. " is currently at location " .. posX .. "," .. posY)
-	end
-end
-
-function MyAddon_Call()
-	MyAddon_Mimic("AucTest", 1)
-	MyAddon_Mimic("party1", 1)
-	MyAddon_Mimic("party2", 0)
-end
-
---MyAddon_Call()
-local frame = CreateFrame("FRAME", "FooAddonFrame");
---frame:RegisterEvent("PLAYER_ENTERING_WORLD");
 
 frame:RegisterEvent("AUCTION_HOUSE_SHOW");
 local function eventHandler(self, event, ...)
-	print("Hello World! Hello " .. event);
+	print("Hello World! Hello11 " .. event)
+	print("11111")
 	if event == "AUCTION_HOUSE_SHOW" then
 		frame:RegisterEvent("AUCTION_ITEM_LIST_UPDATE")
 		_,flag = CanSendAuctionQuery()
